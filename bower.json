@@ -1,0 +1,24 @@
+{
+  "name": "angular-knife",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kristw/angular-knife",
+  "authors": [
+    "Krist Wongsuphasawat <krist.wongz@gmail.com>"
+  ],
+  "description": "Useful gadgets for angular development",
+  "main": "ngKnife.js",
+  "keywords": [
+    "angular",
+    "angular-knife",
+    "util",
+    "utility"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
