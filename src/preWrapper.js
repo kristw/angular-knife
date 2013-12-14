@@ -1,4 +1,4 @@
 define(['angular'], function(ng){
-  var filters  = ng.module('knife.filters',  []);
-  var services = ng.module('knife.services', []);
+  var filters  = ng.module('ngKnife.filters',  []);
+  var services = ng.module('ngKnife.services', []);
 

@@ -1,6 +1,6 @@
 define(['angular'], function(ng){
-  var filters  = ng.module('knife.filters',  []);
-  var services = ng.module('knife.services', []);
+  var filters  = ng.module('ngKnife.filters',  []);
+  var services = ng.module('ngKnife.services', []);
 
 filters.filter('iif', function () {
   return function(input, trueValue, falseValue) {
@@ -87,8 +87,8 @@ services.factory('safeApply', function() {
   };
 });
 
-  return angular.module('knife', [
-    'knife.filters',
-    'knife.services'
+  return angular.module('ngKnife', [
+    'ngKnife.filters',
+    'ngKnife.services'
   ]);
 });
