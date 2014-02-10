@@ -81,6 +81,14 @@ services.factory('debounce', function($timeout, $q) {
   };
 });
 
+// http://stackoverflow.com/questions/15489163/why-does-underscore-defer-fix-so-many-of-my-issues
+services.factory('defer', function(){
+  return function(fn){
+    setTimeout(fn, 1);
+  }
+});
+
+
 services.factory('safeApply', function() {
   return function safeApply(scope, fn) {
     if(scope.$$phase || scope.$root.$$phase) fn();
