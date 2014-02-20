@@ -26,7 +26,6 @@ filters.filter('sign', function () {
   };
 });
 
-
 /**
  * Truncate Filter
  * @Param string
