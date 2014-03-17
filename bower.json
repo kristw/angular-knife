@@ -8,7 +8,7 @@
   "description": "Useful gadgets for angular development",
   "main": "build/angular-knife.js",
   "dependencies": {
-    "angular": "1.2.13"
+    "angular": ">=1.2.13"
   },
   "keywords": [
     "angular",
